@@ -1,0 +1,500 @@
+   62  ls -d */ | sed -e 's/\W//g;s/\n/\s/g'
+   63  ls -d */ | sed -e 's/\W//g;s/\n/ /g'
+   64  ls -d */ | sed -e 's/\W//g;s/\r/ /g'
+   65  ls -d */ | sed -re 's/\W//g;s/\r/ /g'
+   66  ls -d */ | sed -re 's/\W//g;s/\n/t/g'
+   67  ls -d */ | sed -re 's/\W//g'
+   68  ls -d */ | sed -re 's/\W//g' | sed -re 's/\n/ /g'
+   69  ls -d */ | sed -re 's/\W//g' | sed -re 's/\W/ /g'
+   70  ls -d */ | sed -re 's/\W//g' | sed -re 's/\w/ /g'
+   71  ls
+   72  clear
+   73  ls
+   74  cd ..
+   75  cd ~
+   76  clear
+   77  cd g/
+   78  cd /g/
+   79  lq
+   80  ls
+   81  ls -la
+   82  cd .shortcut-targets-by-id/
+   83  ls
+   84  cd 17i141SUATKOpxsBo7AOlOua-bYQnMhWRViMUcR5_1-o5XYZwx6tvLp_wooL4IFQPgHhPUJ0n/
+   85  ls
+   86  cd DEVELOPPEUR\ WEB\ WEB\ MOBILE\ OCTOBRE\ 2022/
+   87  ls
+   88  cd Web_Statique/
+   89  ls
+   90  cd jour_6/
+   91  ls
+   92  clear
+   93  ls
+   94  ./script_execute.sh 
+   95  ./script_execute.sh 
+   96  ./script_execute.sh 
+   97  ./script_execute.sh 
+   98  vim script_execute.sh 
+   99  clear
+  100  history | grep "awk"
+  101  ls
+  102  clear
+  103  ls
+  104  vim essai 
+  105  rm essai  desktop.ini 
+  106  ls
+  107  vim index.html 
+  108  vim script_template_css.sh 
+  109  vim script_template_css.sh 
+  110  awk -F";" '{print $2}' Color_scheme.csv 
+  111  awk -F";" 'NR>1&&NR<7{print $2}' Color_scheme.csv 
+  112  clear
+  113  awk -F";" 'NR>1&&NR<7{print $2};OFS=""' Color_scheme.csv 
+  114  awk -F";" 'BEGIN{OFS=""};NR>1&&NR<7{print $2}' Color_scheme.csv 
+  115  awk -F";" 'BEGIN{OFS="g"};NR>1&&NR<7{print $2}' Color_scheme.csv 
+  116  awk -F";" 'BEGIN{FS="g"};NR>1&&NR<7{print $2}' Color_scheme.csv 
+  117  awk -F";" 'BEGIN{OR="g"};NR>1&&NR<7{print $2}' Color_scheme.csv 
+  118  awk -F";" 'BEGIN{ORS="g"};NR>1&&NR<7{print $2}' Color_scheme.csv 
+  119  awk -F";" 'BEGIN{ORS=" "};NR>1&&NR<7{print $2}' Color_scheme.csv 
+  120  clear
+  121  vim script_execute.sh 
+  122  ls -la
+  123  ls -d */
+  124  ls -d */ | sed 's/\w//g'
+  125  ls -d */ | sed 's/\W//g'
+  126  clear
+  127  vim script_execute.sh 
+  128  ./script_execute.sh 
+  129  vim script_execute.sh 
+  130  vim script_execute.sh 
+  131  vim script_execute.sh 
+  132  ./script_execute.sh 
+  133  vim script_execute.sh 
+  134  ./script_execute.sh 
+  135  vim script_execute.sh 
+  136  ./script_execute.sh 
+  137  vim script_execute.sh 
+  138  ./script_execute.sh 
+  139  ./script_execute.sh 
+  140  vim script_execute.sh 
+  141  ./script_execute.sh 
+  142  vim script_execute.sh 
+  143  ls -la
+  144  vim script_execute.sh 
+  145  ./script_execute.sh 
+  146  vim script_execute.sh 
+  147  vim script_execute.sh 
+  148  ./script_execute.sh 
+  149  vim script_execute.sh 
+  150  ./script_execute.sh 
+  151  vim script_execute.sh 
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd Fil_Rouge/
+  156  ls
+  157  cd Cars/
+  158  ls
+  159  rm desktop.ini 
+  160  cat Infos_cars.
+  161  cat Infos_cars.csv 
+  162  ls
+  163  cd 
+  164  cd Ted
+  165  cd Downloads/
+  166  ls
+  167  ls -d µ/
+  168  ls -d */
+  169  cd France/
+  170  ls
+  171  cd xx
+  172  ls
+  173  grep -help
+  174  grep --help
+  175  grep -i "Ozlati" France*.txt
+  176  exit
+  177  cd Desktop/
+  178  ls
+  179  cd Cars/
+  180  mkdir css js img fa && touch css/style.css js/script.js 
+  181  ls
+  182  mv car*.png img/
+  183  cd img/
+  184  ls
+  185  find -help
+  186  find . -type f "*renault" 
+  187  find . -type f -name "renault" 
+  188  find . -type f -name "renault" 
+  189  find . -type f -name "*renault" 
+  190  find . -type f -name "*renault*" 
+  191  mkdir renault bmw audi citroen
+  192  ls
+  193  find . -type f -name "*renault*" -exec mv {} ./renault/{} \;
+  194  find . -type f -name "*renault*" -exec mv {} {} \;
+  195  ls
+  196  cd renault/
+  197  ls
+  198  cd ..
+  199  find . -type f -name "*audi*" -exec mv {} {} \;
+  200  find . -type f -name "*bmw*" -exec mv {} {} \;
+  201  find . -type f -name "*citroen*" -exec mv {} {} \;
+  202  ls
+  203  cd audi/
+  204  ls
+  205  cd ..
+  206  find . -type f -name "*citroen*" -exec mv {} {} \;
+  207  ls
+  208  find . -type f -name "*citroen*"
+  209  find . -type f -name "*renault*" -exec mv {} {} \; 
+  210  find . -type f -name "*citroen*" -exec mv {} ./{} \;
+  211  ls
+  212  find . -type f -name "*citroen*" -exec mv {} .{} \;
+  213  ls
+  214  cd citroen/
+  215  ls
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd citroen/
+  220  ls
+  221  cd ..
+  222  cd renault/
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd audi/
+  227  ls
+  228  cd ..
+  229  cd bmw/
+  230  ls
+  231  cd ..
+  232  cd citroen/
+  233  ls
+  234  ls -la
+  235  cd ..
+  236  ls -la
+  237  find / -type f -name "*citroen*.png" > /dev/null
+  238  find / -type f -name "*citroen*.png" > /dev/null
+  239  find . -type f -name "*citroen*.png" > /dev/null
+  240  find . -type f -name "*citroen*" > /dev/null
+  241  find . -type f -name "*citroen*"
+  242  find . -type f -name "*citroen*" 2> /dev/null
+  243  find . -type f -name "*citroen*" -exec cp {} ./citroen/{}
+  244  find . -type f -name "*citroen*" -exec cp {} ./citroen/{}
+  245  find . -type f -name "*citroen*" -exec cp {} ./citroen/{} \;
+  246  find . -type f -name "*citroen*" -exec cp {} {} \;
+  247  cd citroen/
+  248  ls
+  249  cd ..
+  250  find . -type f -name "*bmw*" -exec cp {} {} \;
+  251  find . -type f -name "*bmw*" -exec cp {} ./{} \;
+  252  find . -type f -name "*bmw*" -exec cp {} bmw{} \;
+  253  find . -type f -name "*bmw*" -exec cp {} bmw/{} \;
+  254  ls
+  255  cd bmw/
+  256  ls
+  257  cd ..
+  258  find . -type f -name "*audi*" -exec cp {} audi/{} \;
+  259  cd audi/
+  260  ls
+  261  cd ..
+  262  ls
+  263  tree
+  264  tree
+  265  cd Google\ Drive/
+  266  cd docs/
+  267  find . -type f -name "*zen*.pdf"
+  268  find . -name "*zen*.pdf"
+  269  find . -name "*zen*"
+  270  find . -name "*zen*"
+  271  cd ..
+  272  find . -name "*zen*"
+  273  find . -name "*coding*"
+  274  find . -name "*syntax*"
+  275  find . -name "store"
+  276  find . -name "*store*"
+  277  find . -name "*store*.pdf"
+  278  find . -name "*tp*.pdf"
+  279  find --help
+  280  cd sql
+  281  cd docs/
+  282  cd sql/
+  283  grep "*OVER*" .sql
+  284  grep "*OVER*" *.sql
+  285  grep -i "*OVER*" *.sql
+  286  grep -h
+  287  grep -help
+  288  grep --help
+  289  grep -i "*over*" *.sql
+  290  grep -i "*order*" *.sql
+  291  ls
+  292  grep -i "SELECT" *.sql
+  293  grep -i "partition" *.sql
+  294  grep -i "over" *.sql
+  295  grep -i "rank" *.sql
+  296  cd ..
+  297  ls
+  298  cd ..
+  299  cd ..
+  300  cd Downloads/
+  301  cd France/
+  302  ls
+  303  cd xx
+  304  ls
+  305  grep -i "favre" *.txt
+  306  grep -i "33655447732" *.txt
+  307  grep -i "33752521423" *.txt
+  308  grep -i "33" *.txt
+  309  grep -i "33655441122" *.txt
+  310  grep -i "33757455685" *.txt
+  311  grep -i "3344851444" *.txt
+  312  grep -i "33644851444" *.txt
+  313  grep -i "33619948202" *.txt
+  314  grep -i "33608427303" *.txt
+  315  grep -i "33644892377" *.txt
+  316  grep -i "33651955388" *.txt
+  317  grep -i "33632627685" *.txt
+  318  exit
+  319  cd ~/.ssh/
+  320  vim config 
+  321  ssh Vps1
+  322  vim config
+  323  ssh -vvv Vps1
+  324  ssh -vvv Vps2
+  325  cd ~
+  326  ls
+  327  cd Desktop/
+  328  mkdir Tp_gitlab
+  329  cd Tp_gitlab/
+  330  git init
+  331  git remote add origin git@gitlab.com:dwwm_cci_2022/tp_gitlab.git
+  332  git branch -M main
+  333  git add .
+  334  git commit -m "yahoo"
+  335  git branch -M main
+  336  touch bazar.csv
+  337  git add .
+  338  git commit -m "yahoo"
+  339  git branch -M main
+  340  git push origin main
+  341  cd -
+  342  cd ..
+  343  cd .ssh/
+  344  ssh-keygen -t rsa -b 4096
+  345  clip < github_win.pub 
+  346  vim config
+  347  cd ..
+  348  cd Desktop/
+  349  ls
+  350  cd Tp_gitlab/
+  351  git remote add github git@github.com:Blakoko/Tp_git_linux.git
+  352  git push github main
+  353  git add .
+  354  git commit -m "Ajout"
+  355  git push github main
+  356  ifconfig
+  357  ipconfig
+  358  touch matrice.txt
+  359  vim matrice.txt 
+  360  cat matrice.txt 
+  361  vim matrice.txt 
+  362  vim matrice.txt 
+  363  git add .
+  364  git commit -m "Yahoo"
+  365  git push all main
+  366  git push github main
+  367  git push origin main
+  368  ssh kalifa@172.26.92.11
+  369  ssh kalifa@172.26.92.11 -p 4021
+  370  exitr
+  371  exit
+  372  cd Google\ Drive/
+  373  cd docs/
+  374  clear
+  375  cd sql/
+  376  grep "SAFE" *.sql
+  377  cd ..
+  378  ls
+  379  cd csv/
+  380  ls
+  381  cd pers/
+  382  ls
+  383  cd ..
+  384  cd ..
+  385  ls
+  386  cd txt/
+  387  ls
+  388  cd ~/Downloads/
+  389  ls
+  390  cd France/
+  391  ls
+  392  cd xx/
+  393  ls
+  394  grep -i "messad" *.txt
+  395  grep -i "safi,messad" *.txt
+  396  grep -iw "messad" *.txt
+  397  grep -iw "messad" *.txt | grep "safi"
+  398  clear
+  399  exit
+  400  ls
+  401  cd Desktop/
+  402  cd dwwm_2023/
+  403  git init
+  404  git branch -M main
+  405  git add .
+  406  git commit - m "fichier"
+  407  git commit -m "fichier"
+  408  ls
+  409  git branch -M main
+  410  git remote add origin git@github.com:Blakoko/dwwm_2023.git
+  411  git remote add origin main
+  412  git push origin main
+  413  cd ..
+  414  ls
+  415  cd ..
+  416  cd Google\ Drive/docs/notebook/
+  417  ls
+  418  cd dwwm_2023/
+  419  ls
+  420  vim matrice.txt 
+  421  vim ~/.ssh/config 
+  422  exit
+  423  ssh Openwrt
+  424  ssh Openwrt
+  425  cd .ssh/$
+  426  cd .ssh/
+  427  ls
+  428  clip <openwrt.pub 
+  429  ssh Openwrt
+  430  exit
+  431  ssh kalifa@localhost -p 8541
+  432  cd ~/.ssh/
+  433  ls -la
+  434  ls -la key*
+  435  clear
+  436  ssh-keygen -t rsa -b 4096
+  437  clear
+  438  ssh-copy-id -P 8541 -i key_ubuntu.pub kalifa@localhost
+  439  ssh-copy-id -P 8541 kalifa@localhost -i key_ubuntu.pub
+  440  ssh-copy-id -p 8541 kalifa@localhost
+  441  ssh-copy-id -p 8541 -i key_ubuntu.pub kalifa@localhost
+  442  ssh-copy-id -p 8541 -i key_ubuntu.pub kalifa@localhost
+  443  clear
+  444  ssh kalifa@localhost -p 8541
+  445  ssh kalifa@localhost -p 8541
+  446  ssh kalifa@localhost -p 8541 -i ~/.ssh/key_ubuntu
+  447  clear
+  448  ssh-copy-id -p 8541 -i ~/.ssh/key_ubuntu.pub kalifa@localhost
+  449  cat key_ubuntu.pub 
+  450  clear
+  451  cat ~/.ssh/key_ubuntu.pub 
+  452  ssh kalifa@localhost -p 8541
+  453  ssh kalifa@localhost -p 8541 -i ~/.ssh/key_ubuntu
+  454  ssh kalifa@localhost -p 8541 -i ~/.ssh/key_ubuntu
+  455  cd ~
+  456  clear
+  457  mkdir APP
+  458  cd APP
+  459  ms
+  460  ls
+  461  clear
+  462  git init
+  463  mkdir -p img css js
+  464   touch index.html
+  465  git add .
+  466  git commit -m "Premier"
+  467  git branch -M main
+  468  clear
+  469  git remote add origin git@github.com:Blakoko/exo_ssh.git
+  470  git push origin main
+  471  ssh kalifa@localhost -p 8541 -i ~/.ssh/key_ubuntu
+  472  exit
+  473  cd Google\ Drive/
+  474  cd docs/
+  475  cd sql/
+  476  ls
+  477  vim 2021-10-05_MYSQL-Bdd_Employee.sql 
+  478  grep -i "set" *.sql
+  479  cd ..
+  480  cd ..
+  481  cd ..
+  482  ls
+  483  cd Downloads/
+  484  cd France/
+  485  ls
+  486  cd xx
+  487  ls
+  488  grep -i "Luong,william" *.txt
+  489  grep -i "Luong" *.txt
+  490  grep -i "Luong" *.txt | grep -i "William"
+  491  grep -i "Luong" *.txt | grep -i "William"
+  492  mysql -u root -p -P 3308
+  493  mysql -u root -p -P 3308
+  494  exit
+  495  #!/bin/bash
+  496  FILE="./music.txt"
+  497  URL="http://92.154.29.211/txt-capsaofrance.txt"
+  498  RESPONSE=$(curl --write-out "%{http_code}\n" ${URL} --output ${FILE} --silent)
+  499  if [ -f "$FILE" ]; then     rm "$FILE"; fi
+  500  if [ "$RESPONSE" == 200 ] ; then     echo "$(curl  ${URL}  --silent)"; else     echo "No tracks"; fi
+  501  cd ~/Desktop/
+  502  #Creer un dossier
+  503  mkdir Toto
+  504  ls
+  505  dir
+  506  ls -l
+  507  ls
+  508  ls -l
+  509  ls -la
+  510  #aller dans le dossier Toto
+  511  cd Toto/
+  512  touch Bibu.txt
+  513  ls -l
+  514  #creer un deuxieme fichier
+  515  touch Biba.txt
+  516  ls
+  517  ls
+  518  mkdir Data
+  519  cd Data/
+  520  touch merci.txt
+  521  cd ..
+  522  ls -la
+  523  git init
+  524  echo "Bonjour" > Biba.txt
+  525  git add .
+  526  git status
+  527  git commit -m "Mon premier commit"
+  528  cat Biba.txt 
+  529  echo "Au revoir" >> Biba.txt 
+  530  cat Biba.txt 
+  531  git add .
+  532  git commit -m "Deuxieme COmmit"
+  533  echo "Hello" > Bibu.txt
+  534  git add .
+  535  git commit -m "Troisieme Commit"
+  536  git branch Test
+  537  git checkout Test
+  538  git add .
+  539  git commit -m "Branch test"
+  540  #Dans la branch test nous allons supprimer des fichier et dossiers
+  541  git rm Biba.txt
+  542  git rm -rf Data/
+  543  git add *
+  544  git commit - m "Suppression de fichiers"
+  545  git commit -m "Suppression de fichiers"
+  546  ls
+  547  git checkout master
+  548  ls
+  549  touch ./Data/{oh,ah}.txt
+  550  ls ./Data/
+  551  git add *
+  552  git commit -m "Ajout de fichiers"
+  553  git checkout Test
+  554  git branch Re7
+  555  git checkout Re7
+  556  git add .
+  557  git commit -m "Creation re7"
+  558  git touch Historique.txt
+  559  touch Historique.txt
+  560  history
+  561   history > Historique.txt 
